@@ -21,7 +21,6 @@ A comprehensive penetration testing framework for Parrot OS 6.3 with color-coded
 ### Quick Install
 ```bash
 sudo apt update && sudo apt install -y git
-git clone https://github.com/yourusername/w4r-ii-pentest-toolkit.git
 cd w4r-ii-pentest-toolkit
 chmod +x install.sh
 sudo ./install.sh
