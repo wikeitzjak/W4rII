@@ -1,7 +1,7 @@
 
 # W4R II Penetration Testing Toolkit
 
-A comprehensive penetration testing framework for Parrot OS 6.3 with color-coded menus and organized tools for Red Team, Blue Team, and Forensic operations.
+A comprehensive penetration testing framework for Parrot OS 6.3 & Kali Linux with color-coded menus and organized tools for Red Team, Blue Team, and Forensic operations.
 
 ## Features
 
@@ -14,24 +14,19 @@ A comprehensive penetration testing framework for Parrot OS 6.3 with color-coded
 ## Installation
 
 ### Prerequisites
-- Parrot OS 6.3 (Security Edition recommended)
+- Parrot OS 6.3 (Security Edition recommended) or Kali Linux
 - Root access
 - 2GB+ RAM (4GB recommended for some tools)
 
 ### Quick Install
 ```bash
 sudo apt update && sudo apt install -y git
-cd w4r-ii-pentest-toolkit
-chmod +x install.sh
-sudo ./install.sh
+git clone https://github.com/wikeitzjak/W4rII.git
+cd w4rII
+chmod +x w4r.sh
+sudo ./w4r.sh
 
-Manual Installation
-Clone this repository
 
-Make it executable:
+You can modify if you like
 
-bash
-chmod +x w4r-toolkit.sh
-
-bash
-sudo mv w4r-toolkit.sh /usr/local/bin/w4r
+Happy Pentesting
